@@ -105,6 +105,22 @@
     background-size: contain;
     padding-bottom: 15px;
 }
+
+.subsection h3 {
+    margin-top: 30px;
+    font-family: 'geo-sans-light', cursive;
+    font-size: 30px;
+    background-image: url("../images/header1.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 15px;
+}
+
+.schedule {
+  border: 1px solid white;
+}
+
 .stay-tuned ul {
   margin-top: 60px;
   font-family: 'geo-sans-light', cursive;
