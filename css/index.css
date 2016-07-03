@@ -30,6 +30,8 @@
   -ms-interpolation-mode: nearest-neighbor;
   /*background-image: url("../images/landing/old/bg-gradient.png");
   z-index: -200;*/
+  background-color: #80c1fd;
+  background-repeat: no-repeat;
 }
 .mobile-no-parallax {
   image-rendering: pixelated;
@@ -118,7 +120,7 @@
 }
 
 .schedule {
-  border: 1px solid white;
+
 }
 
 .stay-tuned ul {
