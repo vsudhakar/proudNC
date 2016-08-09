@@ -5,6 +5,7 @@ html
     
     link(rel='stylesheet', href='css/index.css')
     script(type='text/javascript', src='js/main.js')
+    script(type='text/javascript', src='js/schedule.js')
     script $(window).load(init);
 
   body.hacknc-body
@@ -14,6 +15,8 @@ html
     include ./shared/_navbar.jade
     
     include ./homepage/_info.jade
+
+    include ./homepage/_schedule.jade
     
     include ./homepage/_faq.jade
         
@@ -23,3 +26,5 @@ html
 
     include ./shared/_footer.jade
 
+    script(type='text/javascript').
+        scheduleLoad("https://gist.githubusercontent.com/suBDavis/536179a2f8673842355a/raw/9d5675b7d81cd162d8db4567ddfb8aead5214ffd/gistfile1.txt");

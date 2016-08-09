@@ -9,6 +9,12 @@ html {
 .fancy {
   font-family: $header-font;
 }
+
+td {
+  border: 1px solid black;
+  width: 200px;
+}
+
 .subtle-link {
   text-decoration: none;
   color: $white;
